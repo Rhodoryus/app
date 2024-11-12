@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_music/widgets/lib_card.dart';
+import 'package:agricultores_app/widgets/lib_card.dart'; // Ajuste o nome do pacote conforme seu projeto
 
 class Last extends StatelessWidget {
   const Last({super.key});
@@ -13,27 +13,27 @@ class Last extends StatelessWidget {
         child: Row(
           children: [
             LibCard(
-              image: 'assets/images/lib1.jpg',
-              libName: 'Dark Side',
-              authorName: 'Pink Floyd',
+              image: 'assets/images/plant1.jpg',
+              libName: 'Milho',
+              authorName: 'Clima: Tropical',
             ),
             SizedBox(width: 16.0),
             LibCard(
-              image: 'assets/images/lib2.jpeg',
-              libName: 'Congumelo',
-              authorName: 'Ventania',
+              image: 'assets/images/plant2.jpg',
+              libName: 'Tomate',
+              authorName: 'Solo: Argiloso',
             ),
             SizedBox(width: 16.0),
             LibCard(
-              image: 'assets/images/lib1.jpg',
-              libName: 'Dark Side',
-              authorName: 'Pink Floyd',
+              image: 'assets/images/plant3.jpg',
+              libName: 'Soja',
+              authorName: 'Clima: Subtropical',
             ),
             SizedBox(width: 16.0),
             LibCard(
-              image: 'assets/images/lib2.jpeg',
-              libName: 'Dark Side',
-              authorName: 'Pink Floyd',
+              image: 'assets/images/plant4.jpg',
+              libName: 'Batata',
+              authorName: 'Solo: Arenoso',
             ),
           ],
         ),
